@@ -10,7 +10,7 @@ response = client.chat.completions.create(
     model="gpt-4o-mini",
     messages=[
         {"role":"system","content":"You are a helpful assistant."},
-        {"role":"user","content":"Hello! I am your personal assistant!"}
+        {"role":"user","content":"Hello! I my name is John!"}
     ],
 )
 
